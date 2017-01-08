@@ -1,4 +1,4 @@
-var comments = require('../public/data/comment').comments;  
+//var comments = require('../public/data/comment').comments;  
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/comments')
 var Comment = require('./schema.js');
